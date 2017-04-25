@@ -1,4 +1,7 @@
-# test coverage for  [cors-anywhere (v0.4.0)](https://github.com/Rob--W/cors-anywhere#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cors-anywhere.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cors-anywhere) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cors-anywhere.svg)](https://travis-ci.org/npmtest/node-npmtest-cors-anywhere)
+# npmtest-cors-anywhere
+
+#### basic test coverage for  [cors-anywhere (v0.4.0)](https://github.com/Rob--W/cors-anywhere#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cors-anywhere.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cors-anywhere) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cors-anywhere.svg)](https://travis-ci.org/npmtest/node-npmtest-cors-anywhere)
+
 #### CORS Anywhere is a reverse proxy which adds CORS headers to the proxied request. Request URL is taken from the path
 
 [![NPM](https://nodei.co/npm/cors-anywhere.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cors-anywhere)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cors-anywhere/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cors-anywhere/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cors-anywhere/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cors-anywhere/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cors-anywhere/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cors-anywhere/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cors-anywhere/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cors-anywhere/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cors-anywhere/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cors-anywhere/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cors-anywhere/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cors-anywhere/build/coverage.html/index.html)
 
@@ -88,7 +91,8 @@
         "test": "mocha ./test/test*.js --reporter spec",
         "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js --reporter spec"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 

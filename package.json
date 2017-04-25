@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [cors-anywhere (v0.4.0)](https://github.com/Rob--W/cors-anywhere#readme) [![npm package](https://img.shields.io/npm/v/npmtest-cors-anywhere.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cors-anywhere) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cors-anywhere.svg)](https://travis-ci.org/npmtest/node-npmtest-cors-anywhere)",
+    "description": "#### basic test coverage for  [cors-anywhere (v0.4.0)](https://github.com/Rob--W/cors-anywhere#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cors-anywhere.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cors-anywhere) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cors-anywhere.svg)](https://travis-ci.org/npmtest/node-npmtest-cors-anywhere)",
     "devDependencies": {
         "cors-anywhere": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
